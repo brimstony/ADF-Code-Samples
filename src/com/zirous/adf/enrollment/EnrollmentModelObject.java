@@ -1,6 +1,8 @@
 package com.zirous.adf.enrollment;
 
 public interface EnrollmentModelObject {
+	
+	public abstract void enroll();
 
 	public abstract String getCompanyName();
 
